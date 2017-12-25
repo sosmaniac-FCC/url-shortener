@@ -1,3 +1,5 @@
-Work in Progress URL shortener
+URL shortener
 
 Coded by John G
+
+MIT license

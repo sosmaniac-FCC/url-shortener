@@ -1,2 +1,3 @@
-# url-shortener
-Takes the given url and provides a corresponding 'short' url 
+Work in Progress URL shortener
+
+Coded by John G

@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;               
+  background-color: black;
+  height: 1px;
+}
+
+h1, h3, h5, p, li {
+  margin: 5px 0;
+}
+
+footer {
+  margin: 100px 0;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL SHORTENER</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>
+      URL SHORTENER MICROSERVICE
+    </h1>
+    <h3>
+      Please see the below instructions!
+    </h3>
+    <hr>
+    <p>
+      Example calls for google.com:
+      <ul>
+        <li>
+          https://url-microservice-2.glitch.me/new/http://google.com
+        </li>
+        <li>
+          https://url-microservice-2.glitch.me/new/https://google.com
+        </li>
+      </ul>
+    </p>
+    <p>
+      Which will return:
+      <h5>
+        {"original_url": "http(s)://google.com", "shortened_url": "https://url-microservice-2.glitch.me/short/#"}
+      </h5>
+    </p>
+    <p>
+      Whereas the shortened url:
+      <h5>
+        https://url-microservice-2.glitch.me/short/#
+      </h5>
+    </p>
+    <p>
+      Will redirect to the original:
+      <h5>
+        http(s)://google.com
+      </h5>
+    </p>
+    <footer>
+      Coded by <a href="https://www.freecodecamp.org/sosmaniac-fcc" target="_blank">John G</a>
+    </footer>
+  </body>
+</html>
